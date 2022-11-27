@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tdzyc5jF4pso4zC3khDRG0vb7H4dDJhbVtbQ7m0Ny97dqajfKNSLeHysgjP/huuNVoCldAjHTS/Z4QS6Tqa1mQ==",
+  "dgSpecHash": "fq6s82yaiXucFkFwAcjvaMm5hjbwnMHT7X88o4BrOmBwsyYtd+2wGRq6PG48TR97Br9lUdviaO5s8WdLuC6nrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

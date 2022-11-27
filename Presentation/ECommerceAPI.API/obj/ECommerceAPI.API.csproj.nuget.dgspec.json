@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj": {}
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -71,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,7 +130,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,18 +140,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
         "projectName": "ECommerceAPI.Infrastructure",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
               }
             }
           }
@@ -191,7 +193,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -200,18 +203,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
         "projectName": "ECommerceAPI.Persistence",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -232,8 +235,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
               }
             }
           }
@@ -273,7 +276,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -282,18 +286,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
         "projectName": "ECommerceAPI.API",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Presentation\\ECommerceAPI.API\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -314,14 +318,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
               },
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj"
               },
-              "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\Eticaretuygulaması\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj"
               }
             }
           }
@@ -353,7 +357,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -365,7 +370,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
