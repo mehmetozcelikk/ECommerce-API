@@ -1,4 +1,4 @@
-﻿using ECommerceAPI.Domain.Entities;
+﻿using ECommerce.Domain.Entities;
 
 namespace ECommerceAPI.Application.Repositories
 {

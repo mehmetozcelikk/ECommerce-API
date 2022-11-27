@@ -1,14 +1,12 @@
-﻿using ECommerceAPI.Application.Repositories;
-using ECommerceAPI.Domain.Entities;
+﻿using ECommerce.Domain.Entities;
+using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Contexts;
 
-namespace ECommerceAPI.Persistence.Repositories
-{
-    public class OrderWriteRepository : WriteRepository<Order>, IOrderWriteRepository
-    {
-        public OrderWriteRepository(ECommerceAPIDbContext context) : base(context)
-        {
-        }
-    }
+namespace ECommerceAPI.Persistence.Repositories;
 
+public class OrderWriteRepository : WriteRepository<Order>, IOrderWriteRepository
+{
+    public OrderWriteRepository(ECommerceAPIDbContext context) : base(context)
+    {
+    }
 }

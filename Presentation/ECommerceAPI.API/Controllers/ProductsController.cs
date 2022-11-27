@@ -1,7 +1,7 @@
 ﻿using ECommerce.Application.RequestParameters;
+using ECommerce.Domain.Entities;
 using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Application.ViewModels.Products;
-using ECommerceAPI.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 

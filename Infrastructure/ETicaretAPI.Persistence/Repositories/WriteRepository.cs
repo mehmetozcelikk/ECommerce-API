@@ -1,5 +1,5 @@
-﻿using ECommerceAPI.Application.Repositories;
-using ECommerceAPI.Domain.Entities.Common;
+﻿using ECommerce.Domain.Entities.Common;
+using ECommerceAPI.Application.Repositories;
 using ECommerceAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
