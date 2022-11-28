@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using NpgsqlTypes;
 using Serilog;
 using Serilog.Context;
@@ -71,7 +72,33 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
     .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Description = "Bearer Authendication with Jwt Token",
+        Type = SecuritySchemeType.Http
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference
+            {
+                Id ="Bearer",
+                Type = ReferenceType.SecurityScheme
+            }
+        },
+                    new List<string>()
+}
+    });
+});
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer("Admin", options =>
