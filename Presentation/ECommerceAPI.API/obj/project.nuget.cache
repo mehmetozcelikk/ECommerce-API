@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TB+cQ4/eeKsGuCO4vibdyW0V1Q0RHJX5Ha4cEsUW7mpn3lhTms3fhD85lvh/5dzLVNezo4sBag7gWMvcLaXapA==",
+  "dgSpecHash": "jfFNYbrUqEGFisU+0fw9JnB7cA3SC6h85IjWJYBdT/afM8zXSd0qI/yPZyrOoPuWFGS/M1vald5U7+1fPMSdtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehmet\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mehmet\\.nuget\\packages\\azure.storage.blobs\\12.12.0\\azure.storage.blobs.12.12.0.nupkg.sha512",

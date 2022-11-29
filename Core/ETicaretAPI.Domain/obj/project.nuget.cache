@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O4fSBtWX8pePh6YrzLi5Q1XKKFKG2x7Vo7nBmV1BfpYfpq3lq6NhPDSkmfzS9o2QiV7EFOZlYWOWcm3GgGxUcQ==",
+  "dgSpecHash": "s7d9SeEghvMwsahFJJuluJIeSAL4L4UyWvztvOP6xvI42iBGMbv6MuU4NZwrGQEQn/MBFzJleNZqqT18S6bR2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+  "projectFilePath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehmet\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\mehmet\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

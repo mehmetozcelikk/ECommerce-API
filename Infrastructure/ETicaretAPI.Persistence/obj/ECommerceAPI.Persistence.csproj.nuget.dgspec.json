@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {}
+    "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+    "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
         "projectName": "ECommerce.Application",
-        "projectPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
+        "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj",
         "packagesPath": "C:\\Users\\mehmet\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj"
+              "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj"
               }
             }
           }
@@ -101,12 +101,12 @@
         }
       }
     },
-    "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
+    "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
         "projectName": "ECommerce.Domain",
-        "projectPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\ECommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\mehmet\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -170,12 +170,12 @@
         }
       }
     },
-    "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
+    "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
         "projectName": "ECommerceAPI.Persistence",
-        "projectPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
+        "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\ECommerceAPI.Persistence.csproj",
         "packagesPath": "C:\\Users\\mehmet\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Persistence\\obj\\",
         "projectStyle": "PackageReference",
@@ -198,8 +198,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
+              "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Core\\ETicaretAPI.Application\\ECommerce.Application.csproj"
               }
             }
           }
