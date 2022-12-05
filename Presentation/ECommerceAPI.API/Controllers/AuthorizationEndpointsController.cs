@@ -30,4 +30,13 @@ public class AuthorizationEndpointsController : ControllerBase
         AssignRoleEndpointCommandResponse response = await _mediator.Send(assignRoleEndpointCommandRequest);
         return Ok(response);
     }
+//    {
+//  "roles": [
+//    "string"
+//  ],
+//  "code": "string",
+//  "menu": "string"
+
+//}
+
 }
