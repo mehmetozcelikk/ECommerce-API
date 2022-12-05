@@ -2828,7 +2828,7 @@
       "projectName": "ECommerceAPI.Infrastructure",
       "projectPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\ECommerceAPI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mehmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehmet\\Source\\Repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\mehmet\\source\\repos\\ECommerce-API\\Infrastructure\\ETicaretAPI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
