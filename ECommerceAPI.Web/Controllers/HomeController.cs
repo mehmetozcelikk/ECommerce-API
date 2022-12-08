@@ -1,5 +1,7 @@
-﻿using ECommerceAPI.Web.Models;
+﻿using ECommerce.Application.DTOs.Configuration;
+using ECommerceAPI.Web.Models;
 using ECommerceAPI.WebHelper;
+using ECommerceAPI.WebHelper.WebDTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -18,8 +20,10 @@ namespace ECommerceAPI.Web.Controllers
 
         public IActionResult Index()
         {
+            var response = _apiHelper.GetObjectResponseFromApi<ResultDTO<List<Menu>>>(RestSharp.Method.Get, "ApplicationServices/GetAuthorizeDefinitionEndpoints", null);
 
-            return View();
+            //_apiHelper.GetObjectResponseFromApi<string>(RestSharp.Method.Get, "Login/SignUp", null); return View();
+            return View(response);
         }
 
         public IActionResult Privacy()

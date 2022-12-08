@@ -1,7 +1,22 @@
+using ECommerceAPI.WebHelper;
+using RestSharp;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+builder.Services.AddMvc();
+
+
+builder.Services.AddScoped<IApiHelper, ApiHelper>();
+builder.Services.AddScoped<RestClient, RestClient>();
+
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 var app = builder.Build();
 

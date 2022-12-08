@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ECommerceAPI.WebHelper.WebDTO;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using RestSharp;
 using System.Diagnostics;
@@ -11,23 +12,23 @@ public class ApiHelper : IApiHelper
 {
     readonly RestClient _client;
     private readonly IHttpContextAccessor _accessor;
-
+    string urlll = "";
     public ApiHelper(RestClient client, IConfiguration config, IHttpContextAccessor accessor)
     {
         _accessor = accessor;
         var sadsadsa = new Uri(config.GetValue<string>("ApiSettings:Host"));
-        var url = "";
+        var url = sadsadsa;
         var options = new RestClientOptions(url);
         _client = new RestClient(options);
     }
 
-    public T GetObjectResponseFromApi<T>(Method _method, string _url, object _body = null, string _token = "", bool _stringify = false) where T : new()
+    public ResultDTO<List<T>> GetObjectResponseFromApi<T>(Method _method, string _url, object _body = null, string _token = "", bool _stringify = false) where T : new()
     {
         try
         {
-            var client = new RestClient();
+            var urlll = "https://localhost:7131/api/" + _url;
             //client.BaseUrl = "https://api.mailgun.net/v3";
-            var request = new RestRequest(_url, _method);
+            var request = new RestRequest(urlll, _method);
 
             if (!string.IsNullOrEmpty(_token))
             {
@@ -39,9 +40,9 @@ public class ApiHelper : IApiHelper
 
             //request.UseDefaultCredentials = true;
 
-            request.AddParameter("application\\json", JsonSerializer.Serialize(_body), ParameterType.RequestBody);
+            request.AddParameter("application\\json", JsonSerializer.Serialize  (_body), ParameterType.RequestBody);
 
-            request.AddJsonBody(_body);
+            //request.AddJsonBody(_body);
             RestResponse response = _client.Execute(request);
 
             if ((int)response.StatusCode < 200 || (int)response.StatusCode >= 300)
@@ -50,16 +51,16 @@ public class ApiHelper : IApiHelper
                 {
                     _accessor.HttpContext.Response.Redirect("/Security/Logoff");
                 }
-                return new T
-                {
-                    //Success = false,
-                    //Message = response.ErrorMessage
-                };
+                //return new T
+                //{
+                //    Success = false,
+                //    Message = response.ErrorMessage
+                //};
             }
 
-            var resultData = default(T);
+            var resultData = default(ResultDTO<List<T>>);
 
-            //resultData = JsonSerializer.Deserialize<T>(response.Content, new JsonSerializerSettings() { TypeNameHandling = TypeNameHandling.All });
+            resultData = JsonSerializer.Deserialize<ResultDTO<List<T>>>(response.Content );
             if (_stringify)
             {
                 //if (typeof(BaseDTO).IsAssignableFrom(typeof(T)))
@@ -75,6 +76,6 @@ public class ApiHelper : IApiHelper
             var st = new StackTrace(ex, true);
             var frame = st.GetFrame(0);
         }
-        return default(T);
+        return null;
     }
 }
