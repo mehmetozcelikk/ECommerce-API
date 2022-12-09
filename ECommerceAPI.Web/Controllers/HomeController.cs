@@ -20,7 +20,7 @@ namespace ECommerceAPI.Web.Controllers
 
         public IActionResult Index()
         {
-            var response = _apiHelper.GetObjectResponseFromApi<ResultDTO<List<Menu>>>(RestSharp.Method.Get, "ApplicationServices/GetAuthorizeDefinitionEndpoints", null);
+            var response = _apiHelper.GetObjectResponseFromApi<List<Menu>>(RestSharp.Method.Get, "ApplicationServices/GetAuthorizeDefinitionEndpoints", null);
 
             //_apiHelper.GetObjectResponseFromApi<string>(RestSharp.Method.Get, "Login/SignUp", null); return View();
             return View(response);

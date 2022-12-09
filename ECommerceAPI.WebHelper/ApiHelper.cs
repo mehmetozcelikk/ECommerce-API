@@ -1,6 +1,7 @@
 ﻿using ECommerceAPI.WebHelper.WebDTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using RestSharp;
 using System.Diagnostics;
 using System.Net;
@@ -22,7 +23,7 @@ public class ApiHelper : IApiHelper
         _client = new RestClient(options);
     }
 
-    public ResultDTO<List<T>> GetObjectResponseFromApi<T>(Method _method, string _url, object _body = null, string _token = "", bool _stringify = false) where T : new()
+    public T GetObjectResponseFromApi<T>(Method _method, string _url, object _body = null, string _token = "", bool _stringify = false) where T : new()
     {
         try
         {
@@ -40,7 +41,8 @@ public class ApiHelper : IApiHelper
 
             //request.UseDefaultCredentials = true;
 
-            request.AddParameter("application\\json", JsonSerializer.Serialize  (_body), ParameterType.RequestBody);
+            //request.AddParameter("application\\json", JsonSerializer.Serialize(_body), ParameterType.RequestBody);
+            request.AddParameter("application\\json", JsonConvert.SerializeObject(_body), ParameterType.RequestBody);
 
             //request.AddJsonBody(_body);
             RestResponse response = _client.Execute(request);
@@ -58,9 +60,11 @@ public class ApiHelper : IApiHelper
                 //};
             }
 
-            var resultData = default(ResultDTO<List<T>>);
+            var resultData = default(T);
+            var resultD321ata = JsonConvert.DeserializeObject<T>(response.Content, new JsonSerializerSettings() { TypeNameHandling = TypeNameHandling.All });
 
-            resultData = JsonSerializer.Deserialize<ResultDTO<List<T>>>(response.Content );
+            //var resul231tData = JsonSerializer.Deserialize<T>(response.Content);
+
             if (_stringify)
             {
                 //if (typeof(BaseDTO).IsAssignableFrom(typeof(T)))
@@ -76,6 +80,8 @@ public class ApiHelper : IApiHelper
             var st = new StackTrace(ex, true);
             var frame = st.GetFrame(0);
         }
-        return null;
+        var resultDatass = default(T);
+
+        return resultDatass;
     }
 }
